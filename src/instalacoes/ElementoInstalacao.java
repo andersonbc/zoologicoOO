@@ -1,5 +1,12 @@
 package instalacoes;
 
-public abstract class ElementoInstalacao {
-	public Instalacao instalacao;
+import animais.Animal;
+
+public abstract class ElementoInstalacao extends Instalacao {
+
+	@Override
+	public boolean instalaAnimal(Animal animal) {
+		return super.instalaAnimal(animal);
+	}
+	
 }

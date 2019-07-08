@@ -12,35 +12,4 @@ public abstract class Instalacao {
 		return true;
 	}
 
-	public int getCapacidadeMaxima() {
-		return capacidadeMaxima;
-	}
-
-	public void setCapacidadeMaxima(int capacidadeMaxima) {
-		this.capacidadeMaxima = capacidadeMaxima;
-	}
-
-	public Localizacao getLocalizacao() {
-		return localizacao;
-	}
-
-	public void setLocalizacao(Localizacao localizacao) {
-		this.localizacao = localizacao;
-	}
-
-	public double getTemperatura() {
-		return temperatura;
-	}
-
-	public void setTemperatura(double temperatura) {
-		this.temperatura = temperatura;
-	}
-
-	public Animal[] getAnimaisInstalados() {
-		return animaisInstalados;
-	}
-
-	public void setAnimaisInstalados(Animal[] animaisInstalados) {
-		this.animaisInstalados = animaisInstalados;
-	}
 }
