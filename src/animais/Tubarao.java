@@ -5,6 +5,7 @@ import java.util.HashSet;
 import enums.Alimento;
 import enums.Porte;
 import enums.Sexo;
+import intefaces.Aquatico;
 
 public class Tubarao implements Aquatico {
 
@@ -53,7 +54,7 @@ public class Tubarao implements Aquatico {
 	
 	@Override
 	public void nadar() {
-		System.out.println("estou nandando!");		
+		System.out.println("estou nadando!");		
 	}
 
 }

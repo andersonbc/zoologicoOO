@@ -1,4 +1,4 @@
-package animais;
+package intefaces;
 
 import enums.Porte;
 import enums.Sexo;

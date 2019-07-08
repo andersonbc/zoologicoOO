@@ -1,9 +1,6 @@
 package modelos;
 
-import java.util.Arrays;
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Map;
 import java.util.Set;
 
 import enums.Localizacao;
@@ -14,11 +11,11 @@ public class Zoologico {
 	
 	public void addInstalacao(Instalacao instalacao) {	
 		if(jaPossuiInstalacaoNaMesmaLocalizacao(instalacao.localizacao)){
-			System.out.println("Erro! JÃ¡ existe uma instalaÃ§Ã£o na localizaÃ§Ã£o " + instalacao.localizacao + ".");
+			System.out.println("Erro! Já existe uma instalação na localização " + instalacao.localizacao + ".");
 		}
 		else {
 			instalacoes.add(instalacao);
-			System.out.println("InstalaÃ§Ã£o adicionada com sucesso!");
+			System.out.println("Instalação adicionada com sucesso!");
 		}
 	}
 	

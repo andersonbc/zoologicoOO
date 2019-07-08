@@ -5,6 +5,7 @@ import java.util.HashSet;
 import enums.Alimento;
 import enums.Porte;
 import enums.Sexo;
+import intefaces.Terrestre;
 
 public class Zebra implements Terrestre {
 

@@ -30,7 +30,7 @@ public abstract class Instalacao {
 			}
 		}
 		
-		System.out.println("Erro! NÃ£o foi possÃ­vel instalar o animal");
+		System.out.println("Erro! Não foi possível instalar o animal");
 		
 		return false;
 	}

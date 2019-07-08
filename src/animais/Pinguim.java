@@ -5,6 +5,7 @@ import java.util.HashSet;
 import enums.Alimento;
 import enums.Porte;
 import enums.Sexo;
+import intefaces.Anfibio;
 
 public class Pinguim implements Anfibio {
 

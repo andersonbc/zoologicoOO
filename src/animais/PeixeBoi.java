@@ -5,6 +5,7 @@ import java.util.HashSet;
 import enums.Alimento;
 import enums.Porte;
 import enums.Sexo;
+import intefaces.Aquatico;
 
 public class PeixeBoi implements Aquatico {
 

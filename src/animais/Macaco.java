@@ -2,6 +2,7 @@ package animais;
 
 import enums.Porte;
 import enums.Sexo;
+import intefaces.Terrestre;
 
 import java.util.HashSet;
 
